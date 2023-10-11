@@ -1,0 +1,16 @@
+원격 저장소 확인
+git remote -v
+
+
+삭제
+git remote rm origin
+
+원격 저장소 추가
+git remote add origin https://github.com/계정이름/저장소이름.git
+
+
+git init
+git add .
+git commit -m "커밋내용"
+git remote add origin https://github.com/계정이름/저장소이름.git
+git push -u origin master
