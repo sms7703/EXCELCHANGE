@@ -14,3 +14,13 @@ git add .
 git commit -m "커밋내용"
 git remote add origin https://github.com/계정이름/저장소이름.git
 git push -u origin master
+
+
+
+echo "# excelchange" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/sms7703/excelchange.git
+git push -u origin main
